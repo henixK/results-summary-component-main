@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Frontend Mentor | Results summary component</title>
+</head>
+
+<body>
+
+  <div class="flex justify-center items-center h-screen relative">
+    <main class="w-full md:max-w-[75vh] h-screen md:h-max bg-white flex flex-wrap md:flex-row justify-center md:rounded-3xl md:shadow-2xl">
+      <div
+        class="container text-center w-full md:w-1/2 h-[45vh] md:h-[50vh] py-5 rounded-b-3xl md:rounded-3xl md:shadow-2xl">
+        <h2 class="text-xl font-bold text-[#c8c7ff]">Your Result</h2>
+        <div class="flex justify-center">
+          <div class="circle mt-5 py-10 w-40 h-40 rounded-full">
+            <h1 class="text-6xl font-bold text-white">76</h1>
+            <span class="text-[#c8c7ff]">of 100</span>
+          </div>
+        </div>
+        <div class="px-12">
+          <h1 class="mt-5 text-2xl font-bold text-white">Great</h1>
+          <p class="text-base mt-2 text-slate-300">You scored higher than 65% of the people who have taken these tests
+          </p>
+        </div>
+      </div>
+
+      <div class="p-5 w-full md:w-1/2 md:h-[50vh] h-[40] md:shadow-xl">
+        <h2 class="font-bold text-xl text-[#303b5a]">Summary</h2>
+        <div class="mt-5 flex flex-col gap-5 md:gap-2">
+          <div
+            class="w-full h-14 bg-[#ff5757] bg-opacity-10 backdrop-filter backdrop-blur-md text-[#ff5757] flex justify-between p-4 items-center rounded-xl">
+            <div class="flex">
+              <img src="./assets/images/icon-reaction.svg" alt="" srcset="">
+              <p class="py-1 ml-2">Reaction</p>
+            </div>
+            <div class="text-slate-400 font-bold flex item-center m-0"><span><span class="text-[#303b5a]">80</span> /
+                100
+            </div>
+          </div>
+
+          <div
+            class="w-full h-14 bg-[#ffb01f] text-[#ffb01f] bg-opacity-10 backdrop-filter backdrop-blur-md flex justify-between p-4 item-center rounded-xl ">
+            <div class="flex">
+              <img src="./assets/images/icon-memory.svg" alt="" srcset="">
+              <p class="py-1 ml-2">Memory</p>
+            </div>
+            <div class="text-slate-400 font-bold flex item-center m-0"><span><span class="text-[#303b5a]">92</span> /
+                100
+            </div>
+          </div>
+          <div
+            class="w-full h-14 bg-[#00bd91] text-[#00bd91] bg-opacity-10 backdrop-filter backdrop-blur-md flex justify-between p-4 item-center rounded-xl ">
+            <div class="flex">
+              <img src="./assets/images/icon-verbal.svg" alt="" srcset="">
+              <p class="py-1 ml-2">Verbal</p>
+            </div>
+            <div class="text-slate-400 font-bold flex item-center m-0"><span><span class="text-[#303b5a]">61</span> /
+                100
+            </div>
+          </div>
+          <div
+            class="w-full h-14 bg-[#1125d4] text-[#1125d4] bg-opacity-10 backdrop-filter backdrop-blur-md flex justify-between p-4 item-center rounded-xl ">
+            <div class="flex">
+              <img src="./assets/images/icon-visual.svg" alt="" srcset="">
+              <p class="py-1 ml-2">Visual</p>
+            </div>
+            <div class="text-slate-400 font-bold flex item-center m-0"><span><span class="text-[#303b5a]">72</span> /
+                100
+            </div>
+          </div>
+        </div>
+        <button class="bg-[#303b5a] w-full h-16 rounded-full mt-5 font-bold text-xl text-white">Continue
+        </button>
+      </div>
+    </div>
+    </main>
+  </div>
+
+
+
+
+</body>
+
+</html>
