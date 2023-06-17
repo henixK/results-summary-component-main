@@ -14,9 +14,6 @@ Tailwind CSS provided me with a comprehensive set of utility classes that made i
 
 The challenge involved paying attention to detail and closely replicating the design, focusing on layout, typography, color scheme, and overall styling. By using Tailwind CSS, I was able to achieve pixel-perfect accuracy and create an intuitive and visually appealing results summary component.
 
-
 ## Live project
 
 - [Netlify](https://kbresultsummary.netlify.app/)
-
-

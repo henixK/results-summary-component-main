@@ -7,7 +7,7 @@ body {
     font-family: "Hanken";
 }
 
-.container {
+.container, button:hover {
     background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
 
@@ -15,6 +15,5 @@ body {
     background: linear-gradient(to bottom, hsl(256, 72%, 46%), hsla(241, 72%, 46%, 0));
 }
 
-button:hover {
-    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
-}
+
+
